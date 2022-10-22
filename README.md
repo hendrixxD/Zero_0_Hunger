@@ -1,6 +1,5 @@
 # Zero_0_Hunger
 ## group 2 SGD project
-Thank you for allowing us such great an opportunity
 _"A Shared blueprint for peace and properit for people and the planet, now and into the future"_
 
 ## Is ending world hunger possible?
@@ -23,5 +22,5 @@ But then..
 
 # Our Goal
 _in God we trust, others mus bring data.
-**W.Edwards Deming**
+**W.Edwards Deming**_
 #
