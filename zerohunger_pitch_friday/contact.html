@@ -76,41 +76,47 @@
 		    <p>Trust Us<span class="text-primary"> With Your Data</span></p>
 		    
             </div>
+	    <!--farmers contact form-->
             <div class="col-lg-6">
                 <div class="contact-form bg-light p-5">
                     <div class="row g-3">
 			<!--Full Name-->
                         <div class="col-12">
-                            <input type="text" class="form-control border-0" name="name" placeholder="Your Name" style="height: 55px;">
-                        </div>
+                            <input type="text" class="form-control border-0" name="name" placeholder="Your Name" style="height: 55px;" required>                               </div>
 			<!--End of Full Nam-->
 			<!--Email-->
 			<div class="col-12">
-                            <input type="email" class="form-control border-0" name="email" placeholder="your email" style="height: 55px;">
+                            <input type="email" class="form-control border-0" name="email" placeholder="your email" style="height: 55px;" required>
                         </div>
 			<!--End of email-->
 			<!--Contact detail-->
                         <div class="col-12 col-sm-6">
-                            <input type="text" class="form-control border-0" name="number" placeholder="contact" style="height: 55px;">
+                            <input type="text" class="form-control border-0" name="number" placeholder="contact" style="height: 55px;" required>
                         </div>
 			<!--End of contact-->
 			<!--Adrress-->
 			<div class="col-12 col-sm-6">
-                            <input type="text" class="form-control border-0" name="address" placeholder="address" style="height: 55px;">
+                            <input type="text" class="form-control border-0" name="address" placeholder="address" style="height: 55px;" required>
                         </div>
 			<!--End Of address-->
                         <div class="col-12">
-                            <input type="text" class="form-control border-0" name="type_of_service" placeholder="service to request" style="height: 55px;">
+                            <input type="text" class="form-control border-0" name="type_of_service" placeholder="service to request" style="height: 55px;" required>
                         </div>
                         <div class="col-12">
-                            <textarea class="form-control border-0" rows="4" placeholder="share us your worst farming experience"></textarea>
+                            <textarea class="form-control border-0" rows="4" placeholder="share us your worst farming experience" required></textarea>
                         </div>
+			<!--checkbox-->
+			<div>
+				<input type="checkbox" class="" placeholder="" required> <small>Do you agree for your data to be shared amongst others for this project development?</small> 
+                        </div>
+			<!--end-of-checkbox-->
                         <div class="col-12">
                             <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
                         </div>
                     </div>
                 </div>
             </div>
+	    <!--end of farmers form data-->
         </div>
     </div>
     <!-- Contact End -->
