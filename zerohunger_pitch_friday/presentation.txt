@@ -1,0 +1,77 @@
+SDG2-zerohunger
+---------------
+---------------
+
+Thehungerproject
+================
+
+Thehungerproject is a group leveraging digital and IOT tools and a data practice: open-data{the chance to apply analytics to it} aiming to contribute to the UN-SDG2 mitigating to the very best the negative impacts on hunger.
+
+from current data, 8.9% of world population is living in hunger, that around 690m people.
+if bold steps wouldnt have been taking, then we risked feeding nearly 1.5 billion people by 2050.
+
+there is no reallly a single cause of hunger. instead other attributes which must be fully addressed contributes to hunger which includes:
+poverty, poor infrastructure, warring conflicts, unforseen events food waste and climate change.
+
+ending world hunger, is a thedious brought before us that we cant see through, but we will contribute to solving problem of hunger.
+
+OUR IDEA
+++++++++
+if everyone will share what he or she knows on how to solve a particluar problem, at the end of the day, each person would have otherwise contributed equally a solution to solving that problem, achieving this, we introduce a data practice Open-Data.
+
+WHAT OPEN DATA MEANS.
++++++++++++++++++++++
+Open-data is any information that is open and free in terms of its use, the rights to republish without copyrights, etc.
+i.e Open Data is only usefull if its shared in ways people can understand.
+
+The introduction of Open Data will tremendously contribute to global yield outputs and help mitigate the impacts of unforseen natural disasters on agricultural produce.
+
+PARTNERSHIP
+we will also partner with the climate cooperation: fieldview, because of the wide variety of services they offer, such as 
+1.Data Connecttivity
+2.Data Visuallization
+3.Performance analysis
+4.
+5.
+6.
+The more reason we will be patnering is that the  other cooporation and companies also partners with #FieldView, and so, partnering with makes us inderect beneficiaries of other partnerships.
+
+#OUR MAIN FOCUS
+But of all this.. our priority is clear. which makes it the 7th.
+7.Weather forecasting.
+
+Weather forecasting will be our main point of focus.
+
+#Case Study. Using Nasaraswa State: The 4500 hectre Olam rice farm ravaged by flood this year, as a case study.
+the major causes was:
+1.increased rainfall
+2.released water from ladgo dam in cameroon.
+
+#How we Intend to acomplish this.
+we will collect meaningfull data from farmers who have experienced flood, from farmers who's regions are prone and have been proned to to flood.
+i.e we collect weather historical forecast data, say from current time to 10 years back analysing this data to study the;
+- pattern of of rainfall, seeing if there is been steady increase in amounts of rainfall or ortherwise, or eitherways, its a fluctuating pattern of rainfall, i.e increase and decrease in volumes as years go on.
+
+the overall climate data include quality controlled daily, monthly, seasonal, and yearly measurements of rainfall, temperature, precipitation, and wind as well as rada data.
+
+the analysed data will now help us make future prediction of climate data, farmers can now know the pridicted amount in volume of expected rainfall.
+with all this farmers can prepare for any future event, making it neccesary for them to adjust the time for cultivating and harvesting.
+
+#OUR GOAL
+Our goal is to turn thousands of data-points into a remarkable solution. this major analysis will allow us know what farmers in a particular region have been doinf and what adjustments needed be made. 
+by so doing, farmers who adopt this solutions will maximize yields on every output, thereby maximizing profits equally.
+
+this means people in that region would have made more harvest, those battling hunger will have more food to eat, reducing the number of hungry people within.
+
+if our major analysis is succesfull, this would have marked our significant SUCCESS.
+
+to achieve the open data goal to impact positively on zerohungerproject, solutions will be made freely open in terms of its use.
+
+#PRICING
+individually,its gonna be a 1 time yearly payment of 25,000 naira /farmer
+
+but we really want to gather lots of data points and communicate over a large number of farmers, which is really gonna be less tasking, thedious, and more importantly, less of financing. so we will tremendously leverage farmers associations and groups to achievee this. in turn farmers who we get to contact through this associations will enjoy a 60% discount.
+
+#HOW MUCH WE ARE EXPECTED TO MAKE
+
+
