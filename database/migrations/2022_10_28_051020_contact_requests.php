@@ -26,8 +26,8 @@ return new class extends Migration
             $table->longText('farm_location');
             $table->longText('flood_impact');
             $table->longText('recovery');
-            $table->longText('cost_peryear');
-            $table->longText('profit_made');
+            $table->float('cost_peryear');
+            $table->float('profit_made');
             $table->timestamps();
         });
         //

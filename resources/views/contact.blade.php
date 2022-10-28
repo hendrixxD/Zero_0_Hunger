@@ -168,13 +168,13 @@
                         </div>
 
                         <div class="col-12">
-                            <input type="number" class="form-control border-0" name="cost_peryear"
+                            <input type="number" step="any" class="form-control border-0" name="cost_peryear"
                                 placeholder="How much does it cummulatively cost yearly in your fields?"
                                 style="height: 55px;" required>
                         </div>
 
                         <div class="col-12">
-                            <input type="number" incr class="form-control border-0" name="profit_made"
+                            <input type="number" step="any" class="form-control border-0" name="profit_made"
                                 placeholder="Total proceeds made from selling crops were?" style="height: 55px;"
                                 required>
                         </div>

@@ -44,6 +44,7 @@
                     </div>
                 </div>
             </div>
+            
             <div class="col-lg-4 text-center border-start border-end py-3">
                 <div class="d-inline-flex align-items-center">
                     <i class="bi bi-envelope-open fs-1 text-primary me-3"></i>
@@ -53,6 +54,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="col-lg-4 text-center py-3">
                 <div class="d-inline-flex align-items-center">
                     <i class="bi bi-phone-vibrate fs-1 text-primary me-3"></i>
@@ -73,14 +75,17 @@
             <a href="index.html" class="navbar-brand">
                 <h1 class="m-0 display-4 text-uppercase text-white"><i class="bi bi-building text-primary me-2"></i>WEBUILD</h1>
             </a>
+
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto py-0">
                     <a href="index.html" class="nav-item nav-link">Home</a>
                     <a href="about.html" class="nav-item nav-link">About</a>
                     <a href="service.html" class="nav-item nav-link active">Service</a>
+
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                         <div class="dropdown-menu m-0">
@@ -91,6 +96,7 @@
                             <a href="detail.html" class="dropdown-item">Blog Detail</a>
                         </div>
                     </div>
+
                     <a href="contact.html" class="nav-item nav-link">Contact</a>
                     <a href="" class="nav-item nav-link bg-primary text-white px-5 ms-3 d-none d-lg-block">Get A Quote <i class="bi bi-arrow-right"></i></a>
                 </div>
@@ -117,13 +123,16 @@
         <div class="text-center mx-auto mb-5" style="max-width: 600px;">
             <h1 class="display-5 text-uppercase mb-4">We Provide <span class="text-primary">The Best</span> Construction Services</h1>
         </div>
+
         <div class="row g-5">
             <div class="col-lg-4 col-md-6">
                 <div class="service-item bg-white d-flex flex-column align-items-center text-center">
                     <img class="img-fluid" src="img/service-1.jpg" alt="">
+
                     <div class="service-icon bg-white">
                         <i class="fa fa-3x fa-building text-primary"></i>
                     </div>
+
                     <div class="px-4 pb-4">
                         <h4 class="text-uppercase mb-3">Building Construction</h4>
                         <p>Duo dolore et diam sed ipsum stet amet duo diam. Rebum amet ut amet sed erat sed sed amet magna elitr amet kasd diam duo</p>
@@ -131,12 +140,15 @@
                     </div>
                 </div>
             </div>
+
             <div class="col-lg-4 col-md-6">
                 <div class="service-item bg-white rounded d-flex flex-column align-items-center text-center">
                     <img class="img-fluid" src="img/service-2.jpg" alt="">
+
                     <div class="service-icon bg-white">
                         <i class="fa fa-3x fa-home text-primary"></i>
                     </div>
+
                     <div class="px-4 pb-4">
                         <h4 class="text-uppercase mb-3">House Renovation</h4>
                         <p>Duo dolore et diam sed ipsum stet amet duo diam. Rebum amet ut amet sed erat sed sed amet magna elitr amet kasd diam duo</p>
@@ -144,6 +156,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="col-lg-4 col-md-6">
                 <div class="service-item bg-white rounded d-flex flex-column align-items-center text-center">
                     <img class="img-fluid" src="img/service-3.jpg" alt="">
@@ -157,12 +170,15 @@
                     </div>
                 </div>
             </div>
+
             <div class="col-lg-4 col-md-6">
                 <div class="service-item bg-white rounded d-flex flex-column align-items-center text-center">
                     <img class="img-fluid" src="img/service-4.jpg" alt="">
+
                     <div class="service-icon bg-white">
                         <i class="fa fa-3x fa-palette text-primary"></i>
                     </div>
+
                     <div class="px-4 pb-4">
                         <h4 class="text-uppercase mb-3">Interior Design</h4>
                         <p>Duo dolore et diam sed ipsum stet amet duo diam. Rebum amet ut amet sed erat sed sed amet magna elitr amet kasd diam duo</p>
@@ -170,12 +186,15 @@
                     </div>
                 </div>
             </div>
+
             <div class="col-lg-4 col-md-6">
                 <div class="service-item bg-white rounded d-flex flex-column align-items-center text-center">
                     <img class="img-fluid" src="img/service-5.jpg" alt="">
+
                     <div class="service-icon bg-white">
                         <i class="fa fa-3x fa-tools text-primary"></i>
                     </div>
+
                     <div class="px-4 pb-4">
                         <h4 class="text-uppercase mb-3">Fixing & Support</h4>
                         <p>Duo dolore et diam sed ipsum stet amet duo diam. Rebum amet ut amet sed erat sed sed amet magna elitr amet kasd diam duo</p>
@@ -183,12 +202,15 @@
                     </div>
                 </div>
             </div>
+
             <div class="col-lg-4 col-md-6">
                 <div class="service-item bg-white rounded d-flex flex-column align-items-center text-center">
                     <img class="img-fluid" src="img/service-6.jpg" alt="">
+
                     <div class="service-icon bg-white">
                         <i class="fa fa-3x fa-paint-brush text-primary"></i>
                     </div>
+
                     <div class="px-4 pb-4">
                         <h4 class="text-uppercase mb-3">Painting</h4>
                         <p>Duo dolore et diam sed ipsum stet amet duo diam. Rebum amet ut amet sed erat sed sed amet magna elitr amet kasd diam duo</p>
@@ -255,10 +277,12 @@
         <div class="text-center mx-auto mb-5" style="max-width: 600px;">
             <h1 class="display-5 text-uppercase mb-4">What Our <span class="text-primary">Happy Cleints</span> Say!!!</h1>
         </div>
+
         <div class="row gx-0 align-items-center">
             <div class="col-xl-4 col-lg-5 d-none d-lg-block">
                 <img class="img-fluid w-100 h-100" src="img/testimonial.jpg">
             </div>
+
             <div class="col-xl-8 col-lg-7 col-md-12">
                 <div class="testimonial bg-light">
                     <div class="owl-carousel testimonial-carousel">
@@ -266,6 +290,7 @@
                             <div class="col-xl-4 col-lg-5 col-md-5">
                                 <img class="img-fluid w-100 h-100 bg-light p-lg-3 mb-4 mb-md-0" src="img/testimonial-1.jpg" alt="">
                             </div>
+
                             <div class="col-xl-8 col-lg-7 col-md-7">
                                 <h4 class="text-uppercase mb-0">Client Name</h4>
                                 <p>Profession</p>
@@ -279,13 +304,15 @@
                             <div class="col-xl-4 col-lg-5 col-md-5">
                                 <img class="img-fluid w-100 h-100 bg-light p-lg-3 mb-4 mb-md-0" src="img/testimonial-2.jpg" alt="">
                             </div>
+
                             <div class="col-xl-8 col-lg-7 col-md-7">
                                 <h4 class="text-uppercase mb-0">Client Name</h4>
                                 <p>Profession</p>
                                 <p class="fs-5 mb-0"><i class="fa fa-2x fa-quote-left text-primary me-2"></i> Dolores sed duo
                                     clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem
                                     lorem magna ut labore et tempor diam tempor erat. Erat dolor rebum sit
-                                    ipsum.</p>
+                                    ipsum.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -303,10 +330,12 @@
                 <a href="index.html" class="navbar-brand">
                     <h1 class="m-0 display-4 text-uppercase text-white"><i class="bi bi-building text-primary me-2"></i>WEBUILD</h1>
                 </a>
+
                 <p>Aliquyam sed elitr elitr erat sed diam ipsum eirmod eos lorem nonumy. Tempor sea ipsum diam  sed clita dolore eos dolores magna erat dolore sed stet justo et dolor.</p>
                 <p><i class="fa fa-map-marker-alt me-2"></i>123 Street, New York, USA</p>
                 <p><i class="fa fa-phone-alt me-2"></i>+012 345 67890</p>
                 <p><i class="fa fa-envelope me-2"></i>info@example.com</p>
+
                 <div class="d-flex justify-content-start mt-4">
                     <a class="btn btn-lg btn-primary btn-lg-square rounded-0 me-2" href="#"><i class="fab fa-twitter"></i></a>
                     <a class="btn btn-lg btn-primary btn-lg-square rounded-0 me-2" href="#"><i class="fab fa-facebook-f"></i></a>
@@ -314,6 +343,7 @@
                     <a class="btn btn-lg btn-primary btn-lg-square rounded-0" href="#"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
+
             <div class="col-lg-6 ps-lg-5">
                 <div class="row g-5">
                     <div class="col-sm-6">
@@ -326,6 +356,7 @@
                             <a class="text-white-50" href="#"><i class="fa fa-angle-right me-2"></i>Contact Us</a>
                         </div>
                     </div>
+
                     <div class="col-sm-6">
                         <h4 class="text-white text-uppercase mb-4">Popular Links</h4>
                         <div class="d-flex flex-column justify-content-start">
@@ -336,6 +367,7 @@
                             <a class="text-white-50" href="#"><i class="fa fa-angle-right me-2"></i>Contact Us</a>
                         </div>
                     </div>
+
                     <div class="col-sm-12">
                         <h4 class="text-white text-uppercase mb-4">Newsletter</h4>
                         <div class="w-100">
@@ -353,6 +385,7 @@
             <div class="py-4 px-5 text-center text-md-start">
                 <p class="mb-0">&copy; <a class="text-primary" href="#">Your Site Name</a>. All Rights Reserved.</p>
             </div>
+
             <div class="py-4 px-5 bg-primary footer-shape position-relative text-center text-md-end">
                 <p class="mb-0">Designed by <a class="text-dark" href="https://htmlcodex.com">HTML Codex</a></p>
             </div>
