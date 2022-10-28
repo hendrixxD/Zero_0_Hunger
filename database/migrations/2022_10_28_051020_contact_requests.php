@@ -12,7 +12,15 @@ return new class extends Migration
      * @return void
      */
     public function up()
-    {
+    {/* 'name', 'email', 'number', 'address', 'service_request', 'experience', 'problem', 'solution', 'flood_experience', 'farm_location', 'flood_impact', 'recovery', 'cost_peryear', 'profit_made', 'perm_to_share' */
+        Schema::create('contact_requests', function (Blueprint $table) {
+            $table->char('name');
+            $table->string('email');
+            $table->char('number');
+            $table->string('address');
+            $table->text('service_request');
+            $table->timestamps();
+        });
         //
     }
 

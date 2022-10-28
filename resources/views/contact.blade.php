@@ -93,8 +93,8 @@
 
             <!--farmers contact form-->
             <div class="col-lg-6">
-                <div class="contact-form bg-light p-5">
-                    <form class="row g-3">
+                <div id="data-form" class="contact-form bg-light p-5">
+                    <form method="post" action="{{ url('farm-data') }}" class="row g-3">
 
                         @csrf
                         <!--Full Name-->
@@ -126,7 +126,7 @@
                         <!--End Of address-->
 
                         <div class="col-12">
-                            <input type="text" class="form-control border-0" name="type_of_service" name="request"
+                            <input type="text" class="form-control border-0" name="service_request"
                                 placeholder="service to request" style="height: 55px;" required>
                         </div>
 
@@ -151,7 +151,7 @@
                         </div>
 
                         <div class="col-12">
-                            <input type="text" class="form-control border-0" name="flood_farm_location"
+                            <input type="text" class="form-control border-0" name="farm_location"
                                 placeholder="Where was your farmland located?" style="height: 55px;" required>
                         </div>
 
@@ -174,14 +174,14 @@
                         </div>
 
                         <div class="col-12">
-                            <input type="text" class="form-control border-0" name="prfit_made_from_selling"
+                            <input type="text" class="form-control border-0" name="profit_made"
                                 placeholder="Total proceeds made from selling crops/produce" style="height: 55px;"
                                 required>
                         </div>
 
                         <!--checkbox-->
                         <div>
-                            <input type="checkbox" class="" placeholder="" required> <small>Do you agree for
+                            <input type="checkbox" name="perm_to_share" class="" placeholder="" required> <small>Do you agree for
                                 your data to be shared amongst others for this project development?</small>
                         </div>
                         <!--end-of-checkbox-->
@@ -190,22 +190,21 @@
                             <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
                         </div>
                     </form>
-
-                    <div id="app">
-
-                        @include('flash-message')
-
-
-                        @yield('content')
-
-                    </div>
                 </div>
             </div>
             <!--end of farmers form data-->
         </div>
     </div>
     <!-- Contact End -->
+    
+    <div id="app">
 
+        @include('flash-message')
+
+
+        @yield('content')
+
+    </div>
 
     <!-- Footer Start -->
     <div class="container-fluid bg-dark bg-light-radial text-white border-top border-primary px-0">

@@ -333,17 +333,6 @@
                                                 Request</button>
                                         </div>
 
-                                            <div id="app">
-
-                                                @include('flash-message')
-
-
-                                                @yield('content')
-
-                                            </div>
-
-                                        {{-- @if (Session::has('me')) --}}
-
                                     </div>
                                 </form>
                             </div>
@@ -351,6 +340,15 @@
                     </div>
                 </div>
                 <!-- Appointment End -->
+
+                <div id="app">
+
+                    @include('flash-message')
+
+
+                    @yield('content')
+
+                </div>
 
 
                 <!-- Footer Start -->

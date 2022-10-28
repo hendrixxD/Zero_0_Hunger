@@ -23,3 +23,5 @@ Route::get('/', [zhController::class, 'index'])->name('home');
 Route::get('contact', [zhController::class, 'contact']);
 
 Route::post('apply', [zhController::class, 'apply']);
+
+Route::post('farm_data', [zhController::class, 'farm_data']);
