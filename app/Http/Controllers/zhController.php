@@ -71,5 +71,10 @@ class zhController extends Controller
        return redirect("/contact#data-form");
        return back()->with('success','Data sent successfully! Thank you');
     }
+
+    public function about()
+    {
+        return view('about');
+    }
     //
 }

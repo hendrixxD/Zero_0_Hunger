@@ -38,7 +38,7 @@
         <nav class="navbar navbar-expand-lg bg-dark bg-light-radial navbar-dark py-3 py-lg-0">
 
             <a href="{{ url('/') }}" class="navbar-brand">
-                <h1 class="m-0 display-4 text-uppercase text-white">Thehungerproject</h1>
+                <h1 class="m-0 display-4 text-uppercase text-white" id="head-team">Thehungerproject</h1>
             </a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -48,8 +48,8 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto py-0">
                     <a href="{{ url('/') }}" class="nav-item nav-link active">Home</a>
-                    <a href="#about" class="nav-item nav-link">About</a>
-                    <a href="#service" class="nav-item nav-link">Service</a>
+                    <a href="{{ url('/about') }}" class="nav-item nav-link">About</a>
+                    <a href="{{ url('/#service') }}" class="nav-item nav-link">Service</a>
                     <a href="{{ url('contact') }}" class="nav-item nav-link">Contact</a>
                 </div>
             </div>
@@ -225,7 +225,7 @@
                     </div>
 
                     <div class="card-body">
-                        <h1 class="card-title pricing-card-title">N25,000<small class="text-muted">/ yr/small></h1>
+                        <h1 class="card-title pricing-card-title">N25,000<small class="text-muted">/ yr</small></h1>
 
                         <ul class="list-unstyled mt-3 mb-4">
                             <li>Data Connectivity</li>
@@ -244,9 +244,9 @@
                     </div>
 
                     <div class="card-body">
-                        <h3 class="card-title pricing-card-title"><del>N50,000</del><small class="text-muted">/
+                        <h3 class="card-title pricing-card-title">N10,000<small class="text-muted">/
                                 yr</small></h3>
-                        <h1 class="card-title pricing-card-title">N10,000<small class="text-muted">/ yr</small></h1>
+                        <h1 class="card-title pricing-card-title"><small class="text-muted"></small></h1>
 
                         <ul class="list-unstyled mt-3 mb-4">
                             <li>Data Connectivity</li>
@@ -316,7 +316,8 @@
 
                                         <div class="col-12 col-sm-6">
                                             <input type="text" class="form-control border-0"
-                                                placeholder="Position To Apply" name="int_position" style="height: 55px;">
+                                                placeholder="Position To Apply" name="int_position"
+                                                style="height: 55px;">
                                         </div>
 
                                         <div class="col-12 col-sm-6">
@@ -350,6 +351,18 @@
 
                 </div>
 
+                @if ($errors->any())
+                    <div class="alert alert-danger">
+
+                        <ul>
+                            @foreach ($errors->all() as $error)
+                                <li>{{ $error }}</li>
+                            @endforeach
+                        </ul>
+
+                    </div>
+                @endif
+
 
                 <!-- Footer Start -->
                 <div class="footer container-fluid position-relative bg-dark bg-light-radial text-white-50 py-6 px-5">
@@ -357,7 +370,7 @@
                         <div class="col-lg-6 pe-lg-5">
                             <a href="index.html" class="navbar-brand">
                                 <h1 class="m-0 display-4 text-uppercase text-white" id="footer-heading">
-                                    THEHUNGERPROJECT</h1>
+                                    Thehungerproject</h1>
                             </a>
 
                             <p>An important step towards solving the SDG goal-2(Thehungerproject) is to allow

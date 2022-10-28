@@ -13,7 +13,7 @@
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
@@ -43,9 +43,10 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto py-0">
-                    <a href="index.html" class="nav-item nav-link">Home</a>
-                    <a href="about.html" class="nav-item nav-link active">About</a>
-                    <a href="service.html" class="nav-item nav-link">Service</a>
+                    <a href="{{ url('/') }}" class="nav-item nav-link">Home</a>
+                    <a href="{{ url("/about")}}" class="nav-item nav-link">About</a>
+                    <a href="{{ url("/#service")}}" class="nav-item nav-link">Service</a>
+                    <a href="{{ url('/contact') }}" class="nav-item nav-link active">Contact</a>
 		    <!--
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
@@ -58,7 +59,6 @@
                         </div>
                     </div>
 		    -->
-                    <a href="contact.html" class="nav-item nav-link">Contact</a>
                 </div>
             </div>
         </nav>
@@ -113,11 +113,11 @@
     <div class="container-fluid py-6 px-5">
         <div class="row g-5">
             <div class="col-lg-7">
-                <h1 class="display-5 text-uppercase mb-4">Zero hunger <span class="text-primary">means suatainable food production system and resilient agricultural practice</span> </h1>
-                <h4 class="text-uppercase mb-3 text-body">Those living in hunger are they themselve the key to ending hunger.</h4>
-                <p>As such, there is no single cause for hunger. instead, a variety of factors contribute to the problem, which includes:</p>
-                <p class="mb-4">Of all the SDG's, the UN has made SDG2 thier personal goal to acheive before 2030, which stresses the need to bring hunger to an end.</p>
-                <p class="mb-4">We are optimistic about bringing to an end the issue of hunger. will help in contributing to that agender before 2030 mainly in the the agricultural aspect with the widely available open-data and partnership.</p>
+                <h1 class="display-5 text-uppercase mb-4">Our goal is to turn thousands <span class="text-primary"> of data points into solutions</span> </h1>
+                <h4 class="text-uppercase mb-3 text-body"></h4>
+                <p>this major solution will allow us know what farmers in a particluar region have been doing wrong and what adjustments needed be made. By so doing, farmers who adopt this solutions will maximize yields, thereby maximizing profits equally.</p>
+                <p class="mb-4">this means that people in those regions would have had more harvest, those battling hunger will now have more food to eat and readily available, reducing the number of hungry people.</p>
+                <p class="mb-4">if this major analysis is succesfull, this would have marked our first success.</p>
             </div>
         </div>
     </div>
@@ -125,7 +125,7 @@
 
 
 
-    <!-- Appointment Start -->
+    {{-- <!-- Appointment Start -->
     <div class="container-fluid bg-light py-6 px-5">
             <div class="row gx-5">
                 <div class="col-lg-4 mb-5 mb-lg-0">
@@ -172,7 +172,7 @@
             </div>
     </div>
     <!-- Appointment End -->
-
+ --}}
 
     <!-- Team Start -->
     <div class="container-fluid py-6 px-5">
@@ -279,7 +279,7 @@
         </div>
     </div>
     <!-- Team End -->
-    
+
 
     <!-- Footer Start -->
     <div class="footer container-fluid position-relative bg-dark bg-light-radial text-white-50 py-6 px-5">

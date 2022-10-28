@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\zhController;
 use Illuminate\Support\Facades\Route;
+use Illuminate\View\Middleware\ShareErrorsFromSession;
+use Illuminate\Support\MessageBag;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,3 +27,5 @@ Route::get('contact', [zhController::class, 'contact']);
 Route::post('apply', [zhController::class, 'apply']);
 
 Route::post('farm_data', [zhController::class, 'farm_data']);
+
+Route::get('about', [zhController::class, 'about']);

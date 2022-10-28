@@ -48,7 +48,7 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto py-0">
                     <a href="{{ url('/') }}" class="nav-item nav-link">Home</a>
-                    <a href="{{ url("/#about")}}" class="nav-item nav-link">About</a>
+                    <a href="{{ url("/about")}}" class="nav-item nav-link">About</a>
                     <a href="{{ url("/#service")}}" class="nav-item nav-link">Service</a>
                     <a href="{{ url('contact') }}" class="nav-item nav-link active">Contact</a>
                 </div>
@@ -131,22 +131,22 @@
                         </div>
 
                         <div class="col-12">
-                            <textarea class="form-control border-0" rows="4" name="experience" placeholder="share us your worst farming experience" required></textarea>
+                            <textarea class="form-control border-0" rows="4" name="experience" placeholder="Please share with us your worst farming experience" required></textarea>
                         </div>
 
                         <div class="col-12">
                             <textarea class="form-control border-0" rows="3" name="problem"
-                                placeholder="some of the problems encountered during farming season" required></textarea>
+                                placeholder="Kindly share some of the problems encountered during farming season" required></textarea>
                         </div>
 
                         <div class="col-12">
                             <textarea class="form-control border-0" rows="3" name="solution"
-                                placeholder="how where you were able to solve those problem them?" required></textarea>
+                                placeholder="How where you were able to solve those problem them?" required></textarea>
                         </div>
 
                         <div class="col-12">
                             <input type="text" class="form-control border-0" name="flood_experience"
-                                placeholder="Have your farm land/s experienced flood of any kind before? Yes or No"
+                                placeholder="Have your farmland experienced flood or disaster of any kind before? Yes/No"
                                 style="height: 55px;" required>
                         </div>
 
@@ -157,34 +157,34 @@
 
                         <div class="col-12">
                             <input type="text" class="form-control border-0" name="flood_impact"
-                                placeholder="where you able to make harvest after such an event? Yes/No"
+                                placeholder="Were you able to make harvest after such an event? Yes/No"
                                 style="height: 55px;" required>
                         </div>
 
                         <div class="col-12">
                             <input type="text" class="form-control border-0" name="recovery"
-                                placeholder="where you able to recover ypur lost? Yes/No" style="height: 55px;"
+                                placeholder="Where you able to recover your lost? Yes/No" style="height: 55px;"
                                 required>
                         </div>
 
                         <div class="col-12">
-                            <input type="text" class="form-control border-0" name="cost_peryear"
-                                placeholder="how much does it comulatively cost yearly in your fields"
+                            <input type="number" class="form-control border-0" name="cost_peryear"
+                                placeholder="How much does it cummulatively cost yearly in your fields?"
                                 style="height: 55px;" required>
                         </div>
 
                         <div class="col-12">
-                            <input type="text" class="form-control border-0" name="profit_made"
-                                placeholder="Total proceeds made from selling crops/produce" style="height: 55px;"
+                            <input type="number" incr class="form-control border-0" name="profit_made"
+                                placeholder="Total proceeds made from selling crops were?" style="height: 55px;"
                                 required>
                         </div>
 
-                        <!--checkbox-->
+                        {{-- <!--checkbox-->
                         <div>
                             <input type="checkbox" name="perm_to_share" class="" placeholder="" required> <small>Do you agree for
                                 your data to be shared amongst others for this project development?</small>
                         </div>
-                        <!--end-of-checkbox-->
+                        <!--end-of-checkbox--> --}}
 
                         <div class="col-12">
                             <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
@@ -196,7 +196,7 @@
         </div>
     </div>
     <!-- Contact End -->
-    
+
     <div id="app">
 
         @include('flash-message')
@@ -205,6 +205,18 @@
         @yield('content')
 
     </div>
+
+    @if ($errors->any())
+        <div class="alert alert-danger">
+
+            <ul>
+                @foreach ($errors->all() as $error)
+                    <li>{{ $error }}</li>
+                @endforeach
+            </ul>
+
+        </div>
+    @endif
 
     <!-- Footer Start -->
     <div class="container-fluid bg-dark bg-light-radial text-white border-top border-primary px-0">

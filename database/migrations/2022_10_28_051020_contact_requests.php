@@ -19,6 +19,15 @@ return new class extends Migration
             $table->char('number');
             $table->string('address');
             $table->text('service_request');
+            $table->longText('experience');
+            $table->longText('problem');
+            $table->longText('solution');
+            $table->longText('flood_experience');
+            $table->longText('farm_location');
+            $table->longText('flood_impact');
+            $table->longText('recovery');
+            $table->longText('cost_peryear');
+            $table->longText('profit_made');
             $table->timestamps();
         });
         //
